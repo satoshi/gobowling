@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/satoshi/go-bowling.svg?branch=master)](https://travis-ci.org/satoshi/go-bowling)
+[![Build Status](https://travis-ci.org/satoshi/gobowling.svg?branch=master)](https://travis-ci.org/satoshi/gobowling)
