@@ -1,7 +1,7 @@
 package bowling
 
 import (
-	"github.com/satoshi/go-bowling/frame"
+	"github.com/satoshi/gobowling/frame"
 )
 
 type Game struct {
