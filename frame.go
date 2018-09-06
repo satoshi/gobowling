@@ -1,4 +1,4 @@
-package frame
+package gobowling
 
 type Frame struct {
 	pins []int
