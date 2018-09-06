@@ -1,7 +1,5 @@
 package gobowling
 
-import "github.com/satoshi/gobowling"
-
 type Game struct {
 	rolls []int
 }
@@ -27,7 +25,7 @@ func (g *Game) CalculateScore() int {
 				temp_array = append(temp_array, g.rolls[j])
 			}
 		}
-		f := gobowling.NewFrame(temp_array)
+		f := NewFrame(temp_array)
 		score += f.CalculateScore()
 		current_roll += f.CalculateOffset()
 	}
