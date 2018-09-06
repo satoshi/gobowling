@@ -1,8 +1,9 @@
-package bowling
+package gobowling
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGutterGame(t *testing.T) {
